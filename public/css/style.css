@@ -146,21 +146,6 @@ ul li {
     justify-content: center;
     align-items: center;
 }
-
-.input{
-    width: 50vw;
-}
-.divfooter ul{
-    display: flex;
-}
-
-footer{
-
-    margin-top: auto;
-    
-    width: 100vw;
-    background-color: #42C2FF;
-}
 form{
 
     display: flex;
@@ -168,4 +153,44 @@ form{
     /*justify-content: flex-start;*/
     flex-direction: column;
     
+}
+
+.input{
+    width: 50vw;
+}
+
+/*termina el form*/
+
+/*arranca el footer*/
+.divfooter ul{
+    display: flex;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+    margin-top: auto;
+    width: 100vw;
+    background-color: #42C2FF;
+}
+.ulfooter li{
+    display: flex;
+   align-items: flex-start;
+    margin-left: 20px;
+
+}
+.ulfooter i{
+    color: black;
+    font-size: 30px;
+}
+
+.ulfooter i:hover{
+    color: white;
+}
+
+.divCopy i{
+    margin-left: 20px;
 }
