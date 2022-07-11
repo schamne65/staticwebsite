@@ -40,7 +40,7 @@ h1{
 }
 @keyframes inicio {
     
-    from{opacity: 100%;
+    from{opacity: 101%;
         width: 40px;
     }
     to{
