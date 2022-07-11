@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    -webkit-text-stroke: 4px gold;
+    font-size: 100px;
+    color: white;
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    
+}
+.inicio{
+    animation-name: inicio;
+    animation-delay: 2s;
+    animation-duration: 0.5s;
+    opacity: 100%;
+ 
+    
+}
+@keyframes h1 {
+    100%{
+        font-size: 120px;
+        
+    }
+    0%{
+        font-size: 110px;
+        
+    }
+    100%{
+        font-size: 120px;
+        
+    }
+    
+}
+@keyframes inicio {
+    
+    from{opacity: 100%;
+        width: 40px;
+    }
+    to{
+        opacity: 0%;
+        width: 50px;
+    }
+    
+}

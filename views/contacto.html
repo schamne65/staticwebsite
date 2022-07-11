@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../public/image/logo.jfif">
+    <title>Static Website</title>
+    <link rel="icon" href="../public/image/logo.png">
+    <script src="https://kit.fontawesome.com/b1900538a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <div>
+            <div class="divheader__logo">
+                <img src="../public/image/logo.png" alt="logo" class="logo"><h2 class="h2">Static Website</h2>
+              </div>
+        </div>
+        <div class="divheader__nav">
+            <nav class="nav_menu">
+                <ul class="listamenu">
+                    <li><a href="../views/principal.html"><i class="fa-solid fa-house"></i>Inicio</a></li> 
+                    <li><a href="../views/servicios.html"><i class="fa-solid fa-laptop-file"></i>Servicios</a></li>
+                    <li><a href="../views/nosotros.html"><i class="fa-solid fa-users"></i>Sobre Nosotros</a></li>
+                    <li><a href="../views/contacto.html"><i class="fa-solid fa-phone"></i>Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <a href="https://api.whatsapp.com/send?phone=543435022191" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp-square"></i></a>
+
+
+    <div class="divFormulario">
+        <h5>Lorem.</h5>
+        <form
+  action="https://formspree.io/f/xyyoaaak"
+  method="POST"
+>
+            <label for="nombre">Nombre</label>
+               <input class="input" type="text" name="nombre">
+            <label for="apellido">Apellido</label>
+               <input class="input" type="text" name="apellido">
+            <label for="email">E-mail</label>
+               <input class="input" type="email" name="email">
+            <label for="telefono">Telefono</label>
+               <input class="input" type="tel" name="telefono">
+            
+            <label for="horario">Horario para contactarnos</label>
+              <select name="horario" id="">
+                <option value="8a12">de 8 a 12 hs</option>
+                <option value="12a16"> de 12 a 16 hs</option>
+                <option value="16a20">de 16 a 20hs</option>
+                <option value="cualquier"> en cualquier horario de 8 a 20 hs</option>
+            </select>
+            <label for="consulta">Su Consulta</label> 
+            <textarea name="consulta" id="" cols="50vw" rows="5"></textarea>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <i>si</i><input type="radio" name="noticias" value="si" >
+            <i>no</i><input type="radio" name="noticias" value="no">
+            <button type="submit">Enviar</button>
+
+            <button type="reset">borrar</button>
+    </div>
+    <div>
+        <h5>Ubicanos</h5>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1zPi5ULpXAA52BVSR4p3xE__U3CCO6G4&ehbc=2E312F" width="200" height="200">google</iframe>
+    </div>
+    <footer>
+        <div class="divfooter">
+            <div class="divfooter">
+                <ul>
+                   <li> <a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                   <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                   <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <i>cop</i>
+        </div>
+    </footer>
+</body>
+</html>
