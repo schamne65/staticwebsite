@@ -30,12 +30,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #EFFFFD;
+    
+     
 }
-.h2{color: #EFFFFD;
-   
-    -webkit-text-stroke: 2px black;
-    font-size: 40px;    
-    padding: 10px;
+
+
+h2{   text-shadow:1px solid black;
+    color: #EFFFFD;
+    font-size: 40px; 
+     padding: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -138,8 +142,8 @@ ul li {
     
 }
 .imagenNosotros{
-    width: 400px;
-    height: 400px;
+   max-width: 100vw;
+   max-height: 100vh;
     z-index: -1;
 }
 
