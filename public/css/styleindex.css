@@ -5,7 +5,13 @@ body{
     justify-content: center;
     align-items: center;
 }
-h1{
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
     -webkit-text-stroke: 4px gold;
     font-size: 100px;
     color: white;
@@ -22,6 +28,9 @@ h1{
     opacity: 100%;
  
     
+}
+.introResponsive{
+    display: none;
 }
 @keyframes h1 {
     100%{
@@ -48,4 +57,22 @@ h1{
         width: 50px;
     }
     
+}
+@media (max-width: 481px) {
+     .intro{
+        display: none;
+     }
+     .introResponsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     h1{text-align: center;
+        display: inline-block;
+        -webkit-text-stroke: 4px gold;
+        font-size: 80px;
+        color: white;
+     }
+
 }
