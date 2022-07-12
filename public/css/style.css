@@ -54,16 +54,21 @@ ul li {
     margin: 10px;
 }
 .divheader__nav a{
+
     font-size: 20px;
     color: white;
     padding: 10px;
     text-decoration: none;
 }
+.listamenu a:hover{
+    color: white;
+}
 .listamenu li:hover{
+    color: white;
     background-color: black;
     border-radius: 4px;
     transition: 0.8;
-   padding: 4px;
+   
 }
 /*aca termina el header*/
 /*vamos a maquetar las section*/
@@ -79,13 +84,15 @@ ul li {
     
 }
 
-
+.divMundo{
+    max-width: 100vw;
+    max-height: 100vh;
+}
 
 
 .mundo{
    max-width: 100vw;
-    /*height: 600px;
-    width: 800px;*/
+    max-height: 100vh;
 }
 /*aca el logo de whatsapp*/
 
